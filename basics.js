@@ -31,3 +31,22 @@ if(undefined){ //NaN,undefined,"",0,false,null
 else{
     console.log("Falsy");
 }
+
+const person = {
+    firstname: "Mick",
+    lastname: "Jagger"
+}
+console.log(person);
+console.log(person.firstname);
+console.log(person['lastname']);
+const year = {
+    1999: "good",
+    2020: "bad"
+}
+console.log(year['1999']);
+console.log(year[2020]);
+const comments = [
+    {username: 'Tammy',text:'lolololol',votes:9},
+    {username: 'Fishboi',text:'glub glub',votes: 1234}
+]
+console.log(comments[1].text);
