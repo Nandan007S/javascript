@@ -17,10 +17,17 @@ let rating = 3;
 if(rating === 3){
     console.log("meets expectations");
 }
-let day = prompt("Enter a day");
-if(day === "Sunday"){
-    console.log("Hurray");
+// let day = prompt("Enter a day").toLowerCase();
+// if(day === "sunday"){
+//     console.log("Hurray");
+// }
+// else{
+//     console.log("Meh");
+// }
+
+if(undefined){ //NaN,undefined,"",0,false,null 
+    console.log("Truthy");
 }
 else{
-    console.log("Meh");
+    console.log("Falsy");
 }
