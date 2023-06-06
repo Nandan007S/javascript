@@ -50,3 +50,7 @@ const comments = [
     {username: 'Fishboi',text:'glub glub',votes: 1234}
 ]
 console.log(comments[1].text);
+const numbers = [1,2,3,4,5,6,7,8,9];
+for(let num of numbers){
+    console.log(num**2);
+}
